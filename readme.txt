@@ -1,4 +1,4 @@
-=== AffiliateWP - Plugin Template ===
+=== AffiliateWP - Starting Affiliate ID ===
 Contributors:
 Tags: AffiliateWP
 Requires at least: 4.4
@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Description here
+This add-on for AffiliateWP allows you specify the starting affiliateID for your affiliate network.
 
 == Description ==
 
