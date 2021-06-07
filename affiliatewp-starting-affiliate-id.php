@@ -49,6 +49,24 @@ class AffiliateWP_SAI_Requirements_Check extends AffiliateWP_Requirements_Check 
 	protected $slug = 'affiliatewp-starting-affiliate-id';
 
 	/**
+	 * Add-on requirements.
+	 *
+	 * @since 1.1
+	 * @var   array[]
+	 */
+	protected $addon_requirements = array(
+		// AffiliateWP.
+		'affwp' => array(
+			'minimum' => '2.6',
+			'name'    => 'AffiliateWP',
+			'exists'  => true,
+			'current' => false,
+			'checked' => false,
+			'met'     => false,
+		),
+	);
+
+	/**
 	 * Bootstrap everything.
 	 *
 	 * @since 1.1
