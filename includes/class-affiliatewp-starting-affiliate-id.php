@@ -69,7 +69,6 @@ final class AffiliateWP_Starting_Affiliate_ID {
 
 		self::$instance->setup_constants();
 		self::$instance->load_textdomain();
-		self::$instance->includes();
 		self::$instance->hooks();
 		self::$instance->start();
 
@@ -226,18 +225,6 @@ final class AffiliateWP_Starting_Affiliate_ID {
 			load_plugin_textdomain( 'affiliatewp-starting-affiliate-id', false, $lang_dir );
 
 		}
-	}
-
-	/**
-	 * Includes necessary files.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @return void
-	 */
-	private function includes() {
-		// Bring in the autoloader.
-		require_once dirname( __FILE__ ) . '/lib/autoload.php';
 	}
 
 	/**
