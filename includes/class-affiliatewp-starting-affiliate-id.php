@@ -249,7 +249,7 @@ final class AffiliateWP_Starting_Affiliate_ID {
 	private function start() {
 		if ( is_admin() ) {
 			// Include admin settings hooks
-			AffiliateWP_SAI\Admin::init();
+			require_once AFFWP_SAI_PLUGIN_DIR . 'includes/class-admin.php';
 		}
 	}
 
